@@ -16,7 +16,7 @@ services:
       #- "5053:5053/tcp"
     environment:
       TZ: 'America/Chicago'
-      WEBPASSWORD: '@123Asdf1!'
+      WEBPASSWORD: 'password'
       DNS1: '127.0.0.1#5053'
       DNS2: no
       # WEBPASSWORD: 'set a secure password here or it will be random'
